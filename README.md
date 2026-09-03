@@ -109,17 +109,26 @@ The buttons are named according to their respective functions, allowing the user
 VBA-Projects/
 │
 ├── README.md
+├── .gitignore
 │
-├── Project-1/
+├── Project-1-Header-Automation/
 │   ├── Add_header.xlsm
+│   ├── Add_header_module.bas
 │   └── screenshots/
+│       ├── before.png
+│       ├── after.png
+│       └── button-setup.png
 │
-└── Project-2/
+└── Project-2-Record-Sorting/
     ├── Sort_records.xlsm
+    ├── Sort_records_module.bas
     └── screenshots/
+        ├── sort-by-year.png
+        ├── sort-by-date.png
+        └── buttons-overview.png
 ```
 
-> **Note:** The exact filenames and folder structure can be adjusted to match the files uploaded to this repository.
+The `.bas` files are plain-text exports of the VBA modules (via the VBA editor's **File → Export File**), included so the macro code can be reviewed directly on GitHub without opening Excel or enabling macros.
 
 ---
 
@@ -166,8 +175,5 @@ Possible improvements to the project include:
 ## 👨‍💻 Author
 
 **Habib Akinola**
-
-BSc Smart Automation  
-FH CAMPUS 02, Graz, Austria
 
 This project forms part of my growing portfolio in **automation, programming, data handling, and IT systems**.
